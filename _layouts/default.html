@@ -43,10 +43,10 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 
-    <script>
+   <script>
     document.addEventListener('DOMContentLoaded', (event) => {
-      const descElement = document.querySelector('p');
-      if (descElement && descElement.innerHTML.includes('{{ site.description }}')) {
+      const descElement = document.getElementById('site-description');
+      if (descElement) {
         descElement.innerHTML = descElement.innerHTML.replace(/\[\[(.*?)\|\|(.*?)\]\]/g, '<a href="$2">$1</a>');
       }
     });
