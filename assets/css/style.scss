@@ -14,4 +14,12 @@ body {
 h1 {
   font-size: 22pt;
   font-weight: 600;
+  color: #313131;
+}
+
+a {
+  color: #268bd2;
+  &:hover {
+    color: #268bd2;
+  }
 }
