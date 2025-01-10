@@ -11,11 +11,14 @@ body {
   font-weight: 400;
 }
 
-header img {
-  width: 270px;
-  height: auto;
+header {
+  img {
+    display: block;
+    width: 270px;
+    height: auto;
+    margin: 0 auto 20px;  // Centers the image and adds space below
+  }
 }
-
 
 h1 {
   font-size: 22pt;
