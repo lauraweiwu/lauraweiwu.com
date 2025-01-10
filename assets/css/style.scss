@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 11pt;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -16,12 +16,11 @@ header {
     display: block;
     width: 250px;
     height: auto;
-    margin: 0 auto 20px;  // Centers the image and adds space below
+    margin: 0 auto 30px;  // Centers the image and adds space below
   }
 
   h1 {
-    margin-top: 10px;    // Adds space above the title
-    margin-bottom: 10px; // Adds space below the title
+    margin-bottom: 30px; // Adds space below the title
 
     a {
       color: #313131 !important;
@@ -36,7 +35,7 @@ header {
 }
 
 h1 {
-  font-size: 22pt;
+  font-size: 30px;
   font-weight: 600;
   color: #313131;
 }
