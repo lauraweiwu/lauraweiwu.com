@@ -18,6 +18,21 @@ header {
     height: auto;
     margin: 0 auto 20px;  // Centers the image and adds space below
   }
+
+  h1 {
+    margin-top: 10px;    // Adds space above the title
+    margin-bottom: 10px; // Adds space below the title
+
+    a {
+      color: #313131 !important;
+    }
+
+    a:hover {
+      color: #303030 !important;
+      text-decoration: none;
+    }
+  }
+  
 }
 
 h1 {
@@ -30,14 +45,6 @@ a:hover {
   font-weight: inherit !important;
 }
 
-header h1 a {
-  color: #313131 !important;
-}
-
-header h1 a:hover {
-  color: #303030 !important;
-  text-decoration: none;
-}
 
 .wrapper {
   width: 860px;  // Adjust total width as needed
