@@ -41,7 +41,10 @@ h1 {
 }
 
 a[href^="mailto:"] {
-  font-weight: 700;
+  font-weight: 600;
+  &:hover {
+    font-weight: inherit !important;
+  }
 }
 
 a:hover {
