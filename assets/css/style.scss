@@ -40,6 +40,10 @@ h1 {
   color: #313131;
 }
 
+a[href^="mailto:"] {
+  font-weight: 400;
+}
+
 a:hover {
   font-weight: inherit !important;
 }
