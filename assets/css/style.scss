@@ -41,9 +41,9 @@ h1 {
 }
 
 a[href^="mailto:"] {
-  color: #515151;
+  color: inherit;
   &:hover {
-    color: #515151;
+    color: inherit;
   }
 }
 
