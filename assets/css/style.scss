@@ -52,6 +52,8 @@ a:hover {
 }
 
 
+// Size of sidebar versus content
+
 .wrapper {
   width: 840px;  // Adjust total width as needed
 }
@@ -63,6 +65,37 @@ header {
 section {
   width: 550px;  // Adjust width of main content area
 }
+
+
+
+// Accordion
+.accordion-btn {
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion-btn:hover {
+  background-color: #ddd;
+}
+
+.accordion-btn.active {
+  background-color: #ccc;
+}
+
+.accordion-content {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
 
 
 
