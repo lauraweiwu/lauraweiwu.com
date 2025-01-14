@@ -1,34 +1,44 @@
-<div class="accordion">
+<div class="accordion-container">
   <button class="accordion-btn">Section 1</button>
-  <div class="accordion-content">
-    <p>Content for Section 1</p>
-  </div>
-  
   <button class="accordion-btn">Section 2</button>
-  <div class="accordion-content">
-    <p>Content for Section 2</p>
-  </div>
-  
   <button class="accordion-btn">Section 3</button>
-  <div class="accordion-content">
-    <p>Content for Section 3</p>
-  </div>
 </div>
 
+<div class="accordion-content" id="content1">
+  <p>Content for Section 1</p>
+</div>
+<div class="accordion-content" id="content2">
+  <p>Content for Section 2</p>
+</div>
+<div class="accordion-content" id="content3">
+  <p>Content for Section 3</p>
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var acc = document.getElementsByClassName("accordion-btn");
-  var i;
+  var contents = document.getElementsByClassName("accordion-content");
 
-  for (i = 0; i < acc.length; i++) {
+  for (var i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
+      var index = Array.from(acc).indexOf(this);
+      
+      // Toggle active class
       this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
+      
+      // Hide all contents
+      for (var j = 0; j < contents.length; j++) {
+        if (j !== index) {
+          contents[j].style.display = "none";
+          acc[j].classList.remove("active");
+        }
+      }
+      
+      // Toggle clicked content
+      if (contents[index].style.display === "block") {
+        contents[index].style.display = "none";
       } else {
-        panel.style.display = "block";
+        contents[index].style.display = "block";
       }
     });
   }
