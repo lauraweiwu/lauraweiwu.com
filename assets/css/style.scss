@@ -69,16 +69,24 @@ section {
 
 
 // Accordion
+.accordion-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
 .accordion-btn {
   background-color: #f1f1f1;
   color: #444;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
+  padding: 10px 15px;
   border: none;
   outline: none;
-  transition: 0.4s;
+  transition: 0.3s;
+  font-size: 14px;
+  border-radius: 5px;
 }
 
 .accordion-btn:hover {
@@ -90,12 +98,12 @@ section {
 }
 
 .accordion-content {
-  padding: 0 18px;
-  background-color: white;
   display: none;
-  overflow: hidden;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
 }
-
 
 
 
