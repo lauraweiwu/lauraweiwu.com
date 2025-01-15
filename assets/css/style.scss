@@ -74,14 +74,14 @@ section {
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .accordion-btn {
   background-color: #f1f1f1;
   color: #444;
   cursor: pointer;
-  padding: 5px 5px;
+  padding:8px 8px;
   border: none;
   outline: none;
   transition: 0.3s;
@@ -100,9 +100,9 @@ section {
 .accordion-content {
   display: none;
   padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-top: 10px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 
