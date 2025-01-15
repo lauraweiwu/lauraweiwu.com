@@ -13,19 +13,19 @@ Unequal Access: Racial Segregation and the Distributional Impacts of Interstate 
 {% include accordion_interstate_inequality.html %}
 [_Best Student Paper Prize_](https://urbaneconomics.org/meetings/awards.html#:~:text=17th%20North%20American%20Meeting%20of,of%20Interstate%20Highways%20in%20Cities%22.), Urban Economics Association<br>
 [_Allan Nevins Prize_](https://eh.net/nevins-prize/), Economic History Association
-
+<br>
 Opportunity in Motion: Equilibrium Effects of a Place-Based Policy on Economic Mobility
 {% include accordion_interstate_igm.html %}
-
-The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
+<br>
+The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital<br>
 _with Martha Stinson and [Sean Wang](https://www.seanwang.page/research)_
 
 ## Works in Progress
-Municipal Coordination, Zoning, and Inequality in Public Goods
+Municipal Coordination, Zoning, and Inequality in Public Goods<br>
 _with [Vincent Rollet](https://sites.google.com/site/vjrollet/home)_
 
 ## Other Papers
-Intergenerational Linkages between Historical IRS 1040 Data and the Numident: 1964-1979 Cohorts
+Intergenerational Linkages between Historical IRS 1040 Data and the Numident: 1964-1979 Cohorts<br>
 _with Martha Stinson_. Census Bureau Center for Economic Studies (CES) Technical Note
 
 
