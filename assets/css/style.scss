@@ -78,7 +78,7 @@ section {
   margin-bottom: 10px;
 }
 
-.accordion-btn {
+.accordion-btn, .file-link {
   background-color: #f1f1f1;
   color: #444;
   cursor: pointer;
@@ -90,7 +90,7 @@ section {
   border-radius: 3px;
 }
 
-.accordion-btn:hover {
+.accordion-btn:hover, .file-link:hover {
   background-color: #ddd;
 }
 
