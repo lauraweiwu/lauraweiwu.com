@@ -13,11 +13,10 @@ From 2020 to 2024 during my Ph.D., I was also employed at the Census Bureau's [C
 {% include accordion_interstate_inequality.html %}
 [_Best Student Paper Prize_](https://urbaneconomics.org/meetings/awards.html#:~:text=17th%20North%20American%20Meeting%20of,of%20Interstate%20Highways%20in%20Cities%22.), Urban Economics Association<br>
 [_Allan Nevins Prize_](https://eh.net/nevins-prize/), Economic History Association
-<br>
-<br>
+
 ### Opportunity in Motion: Equilibrium Effects of a Place-Based Policy on Economic Mobility
 {% include accordion_interstate_igm.html %}
-<br>
+
 ### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
 _with Martha Stinson and [Sean Wang](https://www.seanwang.page/research)_
 
