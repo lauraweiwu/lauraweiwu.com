@@ -18,15 +18,15 @@ From 2020 to 2024 during my Ph.D., I was also employed at the Census Bureau's [C
 ### Opportunity in Motion: Equilibrium Effects of a Place-Based Policy on Economic Mobility
 {% include accordion_interstate_igm.html %}
 <br>
-### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital<br>
+### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
 _with Martha Stinson and [Sean Wang](https://www.seanwang.page/research)_
 
 ## Works in Progress
-### Municipal Coordination, Zoning, and Inequality in Public Goods<br>
+### Municipal Coordination, Zoning, and Inequality in Public Goods
 _with [Vincent Rollet](https://sites.google.com/site/vjrollet/home)_
 
 ## Other Papers
-### Intergenerational Linkages between Historical IRS 1040 Data and the Numident: 1964-1979 Cohorts<br>
+### Intergenerational Linkages between Historical IRS 1040 Data and the Numident: 1964-1979 Cohorts
 _with Martha Stinson_. Census Bureau Center for Economic Studies (CES) Technical Note
 
 
