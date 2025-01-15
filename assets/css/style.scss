@@ -74,20 +74,20 @@ section {
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: -5px;
+  margin-bottom: 5px;
 }
 
 .accordion-btn, .file-link {
   background-color: #f1f1f1;
   color: #444;
   cursor: pointer;
-  padding:8px 8px;
+  padding: 8px 10px;
   border: none;
   outline: none;
   transition: 0.3s;
   font-size: 13px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .accordion-btn:hover, .file-link:hover {
