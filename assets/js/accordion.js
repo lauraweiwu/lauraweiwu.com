@@ -1,32 +1,37 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var acc = document.getElementsByClassName("accordion-btn");
-  var contents = document.getElementsByClassName("accordion-content");
+  // Find all accordion containers
+  var accordionContainers = document.querySelectorAll('.accordion-container');
 
-  for (var i = 0; i < acc.length; i++) {
-    if (!acc[i].classList.contains('file-link')) {
-      acc[i].addEventListener("click", function() {
-        var index = Array.from(acc).indexOf(this);
-        
-        // Toggle active class
-        this.classList.toggle("active");
-        
-        // Hide all contents
-        for (var j = 0; j < contents.length; j++) {
-          if (j !== index) {
-            contents[j].style.display = "none";
-            if (acc[j] && !acc[j].classList.contains('file-link')) {
-              acc[j].classList.remove("active");
-            }
+  accordionContainers.forEach(function(container) {
+    var buttons = container.querySelectorAll('.accordion-btn:not(.file-link)');
+    var contents = container.nextElementSibling.querySelectorAll('.accordion-content');
+
+    buttons.forEach(function(button, index) {
+      button.addEventListener('click', function() {
+        // Toggle active class on the clicked button
+        this.classList.toggle('active');
+
+        // Toggle the corresponding content
+        if (contents[index]) {
+          if (contents[index].style.display === 'block') {
+            contents[index].style.display = 'none';
+          } else {
+            // Hide all contents
+            contents.forEach(function(content) {
+              content.style.display = 'none';
+            });
+            // Show the clicked content
+            contents[index].style.display = 'block';
           }
         }
-        
-        // Toggle clicked content
-        if (contents[index] && contents[index].style.display === "block") {
-          contents[index].style.display = "none";
-        } else if (contents[index]) {
-          contents[index].style.display = "block";
-        }
+
+        // Remove active class from other buttons
+        buttons.forEach(function(btn) {
+          if (btn !== button) {
+            btn.classList.remove('active');
+          }
+        });
       });
-    }
-  }
+    });
+  });
 });
