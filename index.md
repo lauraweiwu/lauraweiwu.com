@@ -16,17 +16,17 @@ _[Best Student Paper](https://urbaneconomics.org/meetings/awards.html#:~:text=17
 {% include accordion_interstate_igm.html %}
 
 ### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
-_with Martha Stinson and [Sean Wang](https://www.seanwang.page/research){:.co-author-link}_
+with Martha Stinson and [Sean Wang](https://www.seanwang.page/research){:.co-author-link}
 {% include accordion_igm_shocks.html %}
 
 ## Works in Progress
 ### Municipal Coordination, Zoning, and Inequality in Public Goods
-_with [Vincent Rollet](https://sites.google.com/site/vjrollet/home){:.co-author-link}_
+with [Vincent Rollet](https://sites.google.com/site/vjrollet/home){:.co-author-link}
 {% include accordion_zoning.html %}
 
 ## Other Papers
 ### Intergenerational Linkages between Historical IRS 1040 Data and the Numident: 1964-1979 Cohorts
-_with Martha Stinson_. Census Bureau Center for Economic Studies (CES) Technical Note
+with Martha Stinson. Census Bureau Center for Economic Studies (CES) Technical Note
 {% include accordion_linkages_technote.html %}
 
 ## Data & Code
