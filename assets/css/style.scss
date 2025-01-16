@@ -122,6 +122,17 @@ section {
   margin-bottom: 5px;
 }
 
+.accordion-wrapper {
+  margin-top: -1em;  // Adjust this value as needed
+}
+
+p + .accordion-wrapper {
+  margin-top: 0;
+}
+
+h3 + p + .accordion-wrapper {
+  margin-top: -1em;  // Adjust this value as needed
+}
 
 // Responsive styles
 @media screen and (max-width: 800px) {
