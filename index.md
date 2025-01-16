@@ -17,17 +17,17 @@ From 2020 to 2024 during my Ph.D., I was also employed at the Census Bureau's [C
 {% include accordion_interstate_igm.html %}
 
 ### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
-_with Martha Stinson and [Sean Wang](https://www.seanwang.page/research)_ 
+_with Martha Stinson and [Sean Wang](https://www.seanwang.page/research)_ <br>
 {% include accordion_igm_shocks.html %}
 
 ## Works in Progress
 ### Municipal Coordination, Zoning, and Inequality in Public Goods
-_with [Vincent Rollet](https://sites.google.com/site/vjrollet/home)_ 
+_with [Vincent Rollet](https://sites.google.com/site/vjrollet/home)_ <br>
 {% include accordion_zoning.html %}
 
 ## Other Papers
 ### Intergenerational Linkages between Historical IRS 1040 Data and the Numident: 1964-1979 Cohorts
-_with Martha Stinson_. Census Bureau Center for Economic Studies (CES) Technical Note 
+_with Martha Stinson_. Census Bureau Center for Economic Studies (CES) Technical Note <br>
 {% include accordion_linkages_technote.html %}
 
 ## Data & Code
