@@ -116,6 +116,7 @@ section {
 .accordion-btn:hover, .file-link:hover {
   background-color: #ddd;
   color: inherit;
+  border-bottom: none;
 }
 
 .accordion-btn.active {
