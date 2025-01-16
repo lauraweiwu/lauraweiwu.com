@@ -18,16 +18,21 @@ From 2020 to 2024 during my Ph.D., I was also employed at the Census Bureau's [C
 
 ### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
 _with Martha Stinson and [Sean Wang](https://www.seanwang.page/research)_
+{% include accordion_igm_shocks.html %}
 
 ## Works in Progress
 ### Municipal Coordination, Zoning, and Inequality in Public Goods
 _with [Vincent Rollet](https://sites.google.com/site/vjrollet/home)_
+{% include accordion_zoning.html %}
 
 ## Other Papers
 ### Intergenerational Linkages between Historical IRS 1040 Data and the Numident: 1964-1979 Cohorts
 _with Martha Stinson_. Census Bureau Center for Economic Studies (CES) Technical Note
+{% include accordion_linkages_technote.html %}
 
 
 ## Data & Code
-
-<span style="color: #175682;">Name pronunciation tip: my last name is composed of two Chinese characters (危吴) and is spoken as way-woo</span>
+<br>
+<br>
+<br>
+<span style="color: #175682;">Name pronunciation tip: my last name is two Chinese characters (危吴) and spoken as way-woo</span>
