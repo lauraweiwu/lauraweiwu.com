@@ -17,12 +17,12 @@ From 2020 to 2024 during my Ph.D., I was also employed at the Census Bureau's [C
 {% include accordion_interstate_igm.html %}
 
 ### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
-_with Martha Stinson and [Sean Wang](https://www.seanwang.page/research)_
+_with Martha Stinson and [Sean Wang](https://www.seanwang.page/research){:.co-author-link}_
 {% include accordion_igm_shocks.html %}
 
 ## Works in Progress
 ### Municipal Coordination, Zoning, and Inequality in Public Goods
-_with [Vincent Rollet](https://sites.google.com/site/vjrollet/home)_
+_with [Vincent Rollet](https://sites.google.com/site/vjrollet/home){:.co-author-link}_
 {% include accordion_zoning.html %}
 
 ## Other Papers
