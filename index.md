@@ -34,4 +34,4 @@ _with Martha Stinson_. Census Bureau Center for Economic Studies (CES) Technical
 ### <a id="highways-data"></a>Interstate Highways and Historical Roads
 
 <br>
-<span style="color: #175682;">Name pronunciation tip: my last name is two Chinese characters (危吴) and spoken as way-woo</span>
+Name pronunciation tip: my last name is two Chinese characters (危吴) and spoken as way-woo
