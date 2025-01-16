@@ -137,14 +137,14 @@ h3 + p + .accordion-wrapper {
 
 // Changing co-author website formatting
 .co-author-link {
-  color: #0066cc;  // Change this to your preferred color
+  color: #313131;  // Change this to your preferred color
   text-decoration: none;
-  border-bottom: 1px dotted #0066cc;
+  border-bottom: 1px #313131;
   transition: all 0.3s ease;
   
   &:hover {
-    color: #004080;  // Darker shade for hover state
-    border-bottom: 1px solid #004080;
+    color: #303030; // Darker shade for hover state
+    border-bottom: 1px solid #303030;
   }
 }
 
