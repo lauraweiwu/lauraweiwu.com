@@ -10,7 +10,7 @@ From 2020 to 2024 during my Ph.D., I was also employed at the Census Bureau's [C
 ## Working Papers
 ### Unequal Access: Racial Segregation and the Distributional Impacts of Interstate Highways in Cities
 {% include accordion_interstate_inequality.html %}
-[_Best Student Paper](https://urbaneconomics.org/meetings/awards.html#:~:text=17th%20North%20American%20Meeting%20of,of%20Interstate%20Highways%20in%20Cities%22.), Urban Economics Association. [_Allan Nevins Prize_](https://eh.net/nevins-prize/), Economic History Association
+_[Best Student Paper](https://urbaneconomics.org/meetings/awards.html#:~:text=17th%20North%20American%20Meeting%20of,of%20Interstate%20Highways%20in%20Cities%22.)_, Urban Economics Association. _[Allan Nevins Prize](https://eh.net/nevins-prize/)_, Economic History Association
 
 ### Opportunity in Motion: Equilibrium Effects of a Place-Based Policy on Economic Mobility
 {% include accordion_interstate_igm.html %}
