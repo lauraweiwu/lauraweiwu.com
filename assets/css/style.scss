@@ -172,7 +172,8 @@ h3 + p + .accordion-wrapper {
     width: auto;
   }
 
-  .wrapper header {
+  header h1,
+  header p { 
     padding-left: 40px; // Adjust this value as needed
   }
   
