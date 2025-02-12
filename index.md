@@ -25,6 +25,9 @@ with Martha Stinson and [Sean Wang](https://www.seanwang.page/research){:.co-aut
 with [Vincent Rollet](https://sites.google.com/site/vjrollet/home){:.co-author-link}
 {% include accordion_zoning.html %}
 
+### Intergenerational Mobility for Generation X: Estimates from Administrative Data
+with Martha Stinson
+
 ## Other Papers
 ### Intergenerational Linkages between Historical IRS 1040 Data and the Numident: 1964-1979 Cohorts
 with Martha Stinson. Census Bureau Center for Economic Studies (CES) Technical Note
