@@ -21,7 +21,7 @@ with Martha Stinson and [Sean Wang](https://www.seanwang.page/research){:.co-aut
 {% include accordion_igm_shocks.html %}
 
 ## Works in Progress
-### Municipal Coordination, Zoning, and Inequality in Public Goods
+### Measuring Winners and Losers from Increasing Housing Supply
 with [Vincent Rollet](https://sites.google.com/site/vjrollet/home){:.co-author-link}
 {% include accordion_zoning.html %}
 
