@@ -33,7 +33,7 @@ with Martha Stinson
 with Martha Stinson. Census Bureau Center for Economic Studies (CES) Technical Note
 {% include accordion_linkages_technote.html %}
 
-## Data & Code
+## Data
 ### <a id="highways-data"></a>Interstate Highways and Historical Roads
 
 <br>
