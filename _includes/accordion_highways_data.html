@@ -14,9 +14,18 @@
         <div class="data-image">
           <img src="{{ site.baseurl }}/assets/images/houston_historical_roads" alt="Houston Historical Roads">
         </div>
-        <div class="data-links">
-          <a href="{{ site.baseurl }}/assets/shapefiles/large_roads_cbsa.zip" class="download-link" target="_blank">Download Shapefile</a>
-          <a href="{{ site.baseurl }}/assets/shapefiles/large_roads_cbsa_cities.pdf" class="download-link" target="_blank">List of CBSAs</a>
+        <div class="data-info">
+          <p class="data-description">
+            The historical roads were digitized from Shell Atlases in 1951 and 1956 from the David Rumsey Historical Map Collection. 
+            I started with a modern shapefile of secondary roads (non-Interstates) and edited them to align with the historical maps. 
+            Major roads used for identification are labeled with the FRC_DESC variable under the value "Major Road Less Important than a Freeway", 
+            while all other roads enter only into the commute time calculations. Other variables in the dataframe should be ignored. 
+            71 CBSAs are included in the shapefile (noted in the file List of CBSAs). 
+          </p>
+           <div class="data-links">
+            <a href="{{ site.baseurl }}/assets/shapefiles/large_roads_cbsa.zip" class="download-link" target="_blank">Download Shapefile</a>
+            <a href="{{ site.baseurl }}/assets/shapefiles/large_roads_cbsa_cities.pdf" class="download-link" target="_blank">List of CBSAs</a>
+          </div>
         </div>
       </div>
     </div>
@@ -27,9 +36,16 @@
         <div class="data-image">
           <img src="{{ site.baseurl }}/assets/images/chicago_yellow_book" alt="Chicago Yellow Book">
         </div>
-        <div class="data-links">
-          <a href="{{ site.baseurl }}/assets/shapefiles/yb_cbsa.zip" class="download-link" target="_blank">Download Shapefile</a>
-          <a href="{{ site.baseurl }}/assets/shapefiles/yb_cbsa_cities.pdf" class="download-link" target="_blank">List of CBSAs</a>
+        <div class="data-info">
+          <p class="data-description">
+            The planned Interstate Highways were digitized from Yellow Book (General Location of National System of Interstate Highways) maps in 1955. 
+            96 CBSAs are included in the shapefile (noted in the file List of CBSAs). 100 cities have corresponding Yellow Book maps, but 
+            some (such as Dallas and Fort Worth) are within the same CBSA.
+          </p>
+          <div class="data-links">
+            <a href="{{ site.baseurl }}/assets/shapefiles/yb_cbsa.zip" class="download-link" target="_blank">Download Shapefile</a>
+            <a href="{{ site.baseurl }}/assets/shapefiles/yb_cbsa_cities.pdf" class="download-link" target="_blank">List of CBSAs</a>
+          </div>
         </div>
       </div>
     </div>
@@ -40,8 +56,15 @@
         <div class="data-image">
           <img src="{{ site.baseurl }}/assets/images/Interstates1947_plan.jpg" alt="Interstates 1947 National Plan">
         </div>
-        <div class="data-links">
-          <a href="{{ site.baseurl }}/assets/shapefiles/yb_natlplan.zip" class="download-link" target="_blank">Download Shapefile</a>
+         <div class="data-info">
+          <p class="data-description">
+            The national Interstate Highway Plan was digitized from a Public Roads Administration map in 1947. 
+            The Yellow Book maps are combined with the 1947 national plan in the shapefile, so this dataset
+            spans the whole country rather than only the 96 CBSAs in the Yellow Book maps. 
+          </p>
+          <div class="data-links">
+            <a href="{{ site.baseurl }}/assets/shapefiles/yb_natlplan.zip" class="download-link" target="_blank">Download Shapefile</a>
+          </div>
         </div>
       </div>
     </div>
@@ -52,9 +75,15 @@
         <div class="data-image">
           <img src="{{ site.baseurl }}/assets/images/boston_rays.jpg" alt="Boston Rays">
         </div>
-        <div class="data-links">
-          <a href="{{ site.baseurl }}/assets/shapefiles/rays_cbsa.zip" class="download-link" target="_blank">Download Shapefile</a>
-          <a href="{{ site.baseurl }}/assets/shapefiles/rays_cbsa_cities.pdf" class="download-link" target="_blank">List of CBSAs</a>
+        <div class="data-info">
+          <p class="data-description">
+            The rays follow the Yellow Book maps and connect intermediate cities/towns along the plans using straight-line rays. 
+            96 CBSAs are included in the shapefile (noted in the file List of CBSAs).
+          </p>
+          <div class="data-links">
+            <a href="{{ site.baseurl }}/assets/shapefiles/rays_cbsa.zip" class="download-link" target="_blank">Download Shapefile</a>
+            <a href="{{ site.baseurl }}/assets/shapefiles/rays_cbsa_cities.pdf" class="download-link" target="_blank">List of CBSAs</a>
+          </div>
         </div>
       </div>
     </div>
@@ -65,8 +94,13 @@
         <div class="data-image">
           <img src="{{ site.baseurl }}/assets/images/interstate_national.jpg" alt="Interstates in 1996">
         </div>
-        <div class="data-links">
-          <a href="{{ site.baseurl }}/assets/shapefiles/highways_actual.zip" class="download-link" target="_blank">Download Shapefile</a>
+        <div class="data-info">
+          <p class="data-description">
+            This shapefile of constructed Interstate highways as of 1996 comes from MIT Libraries and spans the whole country.
+          </p>
+          <div class="data-links">
+            <a href="{{ site.baseurl }}/assets/shapefiles/highways_actual.zip" class="download-link" target="_blank">Download Shapefile</a>
+          </div>
         </div>
       </div>
     </div>
