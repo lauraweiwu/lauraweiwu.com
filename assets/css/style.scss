@@ -179,22 +179,36 @@ h3 + p + .accordion-wrapper {
   gap: 10px;
 }
 
+// Change from button-like appearance to regular hyperlink
 .download-link {
-  display: inline-block;
-  padding: 5px 10px;  
-  background-color: #f1f1f1;  
-  color: #444;  
+  display: inline;
+  padding: 0;
+  background-color: transparent;
+  color: #313131;
   text-decoration: none;
-  border-radius: 6px;  
+  border-radius: 0;
   border: none;
-  transition: 0.3s;
-  font-size: 13px;  
+  transition: all 0.3s ease;
+  margin-right: 15px;  // Add some spacing between links
+  
+  &:hover {
+    color: #303030;
+    border-bottom: 1px solid #303030;
+    background-color: transparent;
+  }
+
+   &::before {
+    content: "↓ ";  // Simple download arrow
+    font-size: 0.9em;
+  }
 }
 
-.download-link:hover {
-  background-color: #ddd;  
-  color: inherit;
-  border-bottom: none;
+// If you want to keep some spacing between the links in the data-links container
+.data-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
 }
 
 // Changing co-author website formatting
