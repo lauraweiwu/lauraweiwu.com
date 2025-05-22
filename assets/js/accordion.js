@@ -8,7 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (buttons.length > 1) {
       // This is a multi-button accordion
-      var contents = container.nextElementSibling.querySelectorAll('.accordion-content');
+      // Get the parent wrapper
+      var wrapper = container.closest('.accordion-wrapper');
+      // Get all accordion-content elements that are direct children of the wrapper
+      var contents = Array.from(wrapper.children).filter(function(child) {
+        return child.classList.contains('accordion-content');
+      });
       
       buttons.forEach(function(button, index) {
         button.addEventListener('click', function() {
