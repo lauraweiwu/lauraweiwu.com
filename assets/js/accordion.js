@@ -1,65 +1,48 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Find all accordion containers
-  var accordionContainers = document.querySelectorAll('.accordion-container');
-
-  accordionContainers.forEach(function(container) {
-    // Check if this is a multi-button accordion (contains multiple non-file-link buttons)
-    var buttons = container.querySelectorAll('.accordion-btn:not(.file-link)');
-    
-    if (buttons.length > 1) {
-      // This is a multi-button accordion
-      // Get the parent wrapper
-      var wrapper = container.closest('.accordion-wrapper');
-      // Get all accordion-content elements that are direct children of the wrapper
-      var contents = Array.from(wrapper.children).filter(function(child) {
-        return child.classList.contains('accordion-content');
-      });
+  // Find all accordion button elements
+  var buttons = document.querySelectorAll('.accordion-btn');
+  
+  // Find all accordion content elements
+  var contents = document.querySelectorAll('.accordion-content');
+  
+  console.log("Found buttons:", buttons.length);
+  console.log("Found contents:", contents.length);
+  
+  // Add click event to each button
+  buttons.forEach(function(button, index) {
+    button.addEventListener('click', function() {
+      console.log("Button clicked:", index);
       
-      buttons.forEach(function(button, index) {
-        button.addEventListener('click', function() {
-          // Toggle active class on the clicked button
-          this.classList.toggle('active');
-          
-          // Toggle the corresponding content
-          if (contents[index]) {
-            if (contents[index].style.display === 'block') {
-              contents[index].style.display = 'none';
-            } else {
-              // Hide all contents
-              contents.forEach(function(content) {
-                content.style.display = 'none';
-              });
-              // Show the clicked content
-              contents[index].style.display = 'block';
-            }
-          }
-          
-          // Remove active class from other buttons
-          buttons.forEach(function(btn) {
-            if (btn !== button) {
-              btn.classList.remove('active');
-            }
+      // Toggle active class
+      this.classList.toggle('active');
+      
+      // Toggle content visibility
+      if (contents[index]) {
+        if (contents[index].style.display === 'block') {
+          contents[index].style.display = 'none';
+        } else {
+          // Hide all contents
+          contents.forEach(function(content) { 
+            content.style.display = 'none'; 
           });
-        });
-      });
-    } else {
-      // This is a single-button accordion (your existing code)
-      var button = container.querySelector('.accordion-btn:not(.file-link)');
-      var content = container.nextElementSibling;
-      
-      if (button && content) {
-        button.addEventListener('click', function() {
-          // Toggle active class on the clicked button
-          this.classList.toggle('active');
           
-          // Toggle the corresponding content
-          if (content.style.display === 'block') {
-            content.style.display = 'none';
-          } else {
-            content.style.display = 'block';
-          }
-        });
+          // Show this content
+          contents[index].style.display = 'block';
+        }
       }
-    }
+      
+      // Remove active class from other buttons
+      buttons.forEach(function(btn) {
+        if (btn !== button) {
+          btn.classList.remove('active');
+        }
+      });
+    });
   });
+  
+  // Set first content to be visible initially (optional)
+  if (buttons.length > 0 && contents.length > 0) {
+    buttons[0].classList.add('active');
+    contents[0].style.display = 'block';
+  }
 });
