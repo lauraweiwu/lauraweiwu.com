@@ -1,0 +1,62 @@
+<div class="accordion-wrapper">
+  <div class="accordion-container">
+    <button class="accordion-btn">Dataset 1</button>
+    <button class="accordion-btn">Dataset 2</button>
+    <button class="accordion-btn">Dataset 3</button>
+    <button class="accordion-btn">Dataset 4</button>
+  </div>
+
+  <div class="accordion-contents">
+    <!-- Dataset 1 Content -->
+    <div class="accordion-content">
+      <div class="data-content">
+        <div class="data-image">
+          <img src="{{ site.baseurl }}/assets/images/dataset1_image.jpg" alt="Dataset 1 Image">
+        </div>
+        <div class="data-links">
+          <a href="{{ site.baseurl }}/assets/data/dataset1_file.csv" class="download-link" target="_blank">Download Dataset</a>
+          <a href="{{ site.baseurl }}/assets/data/dataset1_description.pdf" class="download-link" target="_blank">Dataset Description (PDF)</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Dataset 2 Content -->
+    <div class="accordion-content">
+      <div class="data-content">
+        <div class="data-image">
+          <img src="{{ site.baseurl }}/assets/images/dataset2_image.jpg" alt="Dataset 2 Image">
+        </div>
+        <div class="data-links">
+          <a href="{{ site.baseurl }}/assets/data/dataset2_file.xlsx" class="download-link" target="_blank">Download Dataset</a>
+          <a href="{{ site.baseurl }}/assets/data/dataset2_description.pdf" class="download-link" target="_blank">Dataset Description (PDF)</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Dataset 3 Content -->
+    <div class="accordion-content">
+      <div class="data-content">
+        <div class="data-image">
+          <img src="{{ site.baseurl }}/assets/images/dataset3_image.jpg" alt="Dataset 3 Image">
+        </div>
+        <div class="data-links">
+          <a href="{{ site.baseurl }}/assets/data/dataset3_file.zip" class="download-link" target="_blank">Download Dataset</a>
+          <a href="{{ site.baseurl }}/assets/data/dataset3_description.pdf" class="download-link" target="_blank">Dataset Description (PDF)</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Dataset 4 Content -->
+    <div class="accordion-content">
+      <div class="data-content">
+        <div class="data-image">
+          <img src="{{ site.baseurl }}/assets/images/dataset4_image.jpg" alt="Dataset 4 Image">
+        </div>
+        <div class="data-links">
+          <a href="{{ site.baseurl }}/assets/data/dataset4_file.dta" class="download-link" target="_blank">Download Dataset</a>
+          <a href="{{ site.baseurl }}/assets/data/dataset4_description.pdf" class="download-link" target="_blank">Dataset Description (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
