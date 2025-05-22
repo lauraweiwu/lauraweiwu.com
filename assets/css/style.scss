@@ -135,7 +135,8 @@ section {
 }
 
 .accordion-wrapper {
-  margin-top: -1em;  // Adjust this value as needed
+  margin-top: 0;  
+  margin-bottom: 10px;
 }
 
 p + .accordion-wrapper {
@@ -143,13 +144,9 @@ p + .accordion-wrapper {
 }
 
 h3 + p + .accordion-wrapper {
-  margin-top: -1em;  // Adjust this value as needed
+  margin-top: -0.5em;  // Only apply negative margin in specific contexts
 }
 
-h3 + .accordion-wrapper, // For h2 headings
-h3 + p + .accordion-wrapper {
-  margin-top: 10px !important; // Positive margin after headings
-}
 
 .data-content {
   display: flex;
