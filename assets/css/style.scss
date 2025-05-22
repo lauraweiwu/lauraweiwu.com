@@ -146,6 +146,11 @@ h3 + p + .accordion-wrapper {
   margin-top: -1em;  // Adjust this value as needed
 }
 
+h2 + .accordion-wrapper, // For h2 headings
+h2 + p + .accordion-wrapper {
+  margin-top: 10px !important; // Positive margin after headings
+}
+
 .data-content {
   display: flex;
   flex-wrap: wrap;
