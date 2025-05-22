@@ -149,7 +149,7 @@ h3 + p + .accordion-wrapper {
 .data-content {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start; /* Changed from center to flex-start */
 }
 
 .data-image {
@@ -163,10 +163,19 @@ h3 + p + .accordion-wrapper {
   border-radius: 5px;
 }
 
-.data-links {
+.data-info {
   flex: 1;
+}
+
+.data-description {
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.data-links {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -212,6 +221,7 @@ h3 + p + .accordion-wrapper {
     flex: 0 0 100%;
   }
 }
+
 
 @media screen and (max-width: 800px) {
   .wrapper {
