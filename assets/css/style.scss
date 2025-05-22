@@ -142,9 +142,6 @@ section {
   margin-bottom: 10px;
 }
 
-p + .accordion-wrapper {
-  margin-top: -0.5em;
-}
 
 h3 + p + .accordion-wrapper {
   margin-top: -0.5em;  // Only apply negative margin in specific contexts
