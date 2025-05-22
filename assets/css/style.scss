@@ -135,19 +135,16 @@ section {
 }
 
 .accordion-wrapper {
-  margin-top: -1em;  
+  margin-top: 0;  
+  margin-bottom: 10px;
 }
 
 p + .accordion-wrapper {
   margin-top: 0;
 }
 
-.data-accordion {
-  margin-top: 10px !important;
-}
-
 h3 + p + .accordion-wrapper {
-  margin-top: 0em; 
+  margin-top: -0.5em;  // Only apply negative margin in specific contexts
 }
 
 
