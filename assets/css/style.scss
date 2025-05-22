@@ -146,6 +146,47 @@ h3 + p + .accordion-wrapper {
   margin-top: -1em;  // Adjust this value as needed
 }
 
+.data-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.data-image {
+  flex: 0 0 150px;
+  margin-right: 20px;
+}
+
+.data-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.data-links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.download-link {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #f8f9fa;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #e9ecef;
+  border-color: #ccc;
+}
+
+
 // Changing co-author website formatting
 .co-author-link {
   color: #313131;  // Change this to your preferred color
@@ -160,6 +201,18 @@ h3 + p + .accordion-wrapper {
 
 
 // Responsive styles
+@media screen and (max-width: 600px) {
+  .data-content {
+    flex-direction: column;
+  }
+  
+  .data-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+    flex: 0 0 100%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .wrapper {
     width: auto;
