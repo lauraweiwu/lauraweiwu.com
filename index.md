@@ -6,6 +6,8 @@ I study questions in labor and urban economics by applying methods from spatial 
 I received my Ph.D. in Economics from MIT  in 2024 and my B.A. in Economics and B.S. in Applied Mathematics from Stanford in 2018. 
 
 From 2020 to 2024 during my Ph.D., I worked part-time at the Census Bureau's [Center for Economic Studies](https://www.census.gov/programs-surveys/ces.html) to build new measures of intergenerational mobility for the mid-20th century.
+
+Name pronunciation tip: my last name is two Chinese characters (危吴) and spoken as way-woo
 <br>
 ## Working Papers
 ### Unequal Access: Racial Segregation and the Distributional Impacts of Interstate Highways in Cities
@@ -37,5 +39,4 @@ with Martha Stinson. Census Bureau Center for Economic Studies (CES) Technical N
 ### <a id="highways-data"></a>Interstate Highways and Historical Roads
 {% include accordion_highways_data.html %}
 
-<br>
-Name pronunciation tip: my last name is two Chinese characters (危吴) and spoken as way-woo
+
