@@ -3,16 +3,11 @@ plugins:
 - jekyll-remote-theme
 title: Laura Weiwu
 description: |
-  <b>Post-Doctoral Fellow</b><br>
-  Department of Economics<br>
-  Stanford University<br>
-  <br>
-  <b>Assistant Professor</b> (in July 2025)<br>
+  <b>Assistant Professor</b><br>
   Haas School of Business<br>
   UC Berkeley<br>
   <br>
-  <b>[[lauraweiwu@stanford.edu||mailto:lauraweiwu@stanford.edu]]<br>
-  [[lauraww@berkeley.edu||mailto:lauraww@berkeley.edu]]<br></b>
+  <b>[[lauraww@berkeley.edu||mailto:lauraww@berkeley.edu]]</b><br>
   <br>
   [[ [Curriculum Vitae]||/assets/files/Laura_Weiwu_CV.pdf]]
 logo: /assets/images/laura-weiwu-crop.jpeg
