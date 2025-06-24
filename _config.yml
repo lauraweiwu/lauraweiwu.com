@@ -3,13 +3,12 @@ plugins:
 - jekyll-remote-theme
 title: Laura Weiwu
 description: |
+  <b>[[lauraww@berkeley.edu||mailto:lauraww@berkeley.edu]]</b><br>
   <b>Assistant Professor</b><br>
   Haas School of Business<br>
   UC Berkeley<br><br>
   2220 Piedmont Ave<br>
   Berkeley, CA 94720<br>
-  <br>
-  <b>[[lauraww@berkeley.edu||mailto:lauraww@berkeley.edu]]</b><br>
   <br>
   [[ [Curriculum Vitae]||/assets/files/Laura_Weiwu_CV.pdf]]
 logo: /assets/images/laura-weiwu-crop.jpeg
