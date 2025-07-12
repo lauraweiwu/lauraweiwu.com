@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-I study questions in labor and urban economics by applying methods from spatial economics and insights from economic history. My research studies the causes and consequences of inequality, often by employing large-scale administrative datasets for the United States. 
+I study questions in labor and urban economics by applying methods from spatial economics and insights from economic history. My research focuses on the causes and consequences of inequality, often by employing large-scale administrative datasets for the United States. 
 
 I received my Ph.D. in Economics from MIT in 2024 and my B.A. in Economics and B.S. in Applied Mathematics from Stanford in 2018. 
 
