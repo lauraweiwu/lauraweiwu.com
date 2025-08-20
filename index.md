@@ -40,8 +40,6 @@ with Martha Stinson. Census Bureau Center for Economic Studies (CES) Technical N
 
 ## Data
 ### <a id="highways-data"></a>Interstate Highways and Historical Roads
-#### Shapefiles
-{% include accordion_highways_data_shapefiles.html %}
-#### Commuting Matrix
-{% include accordion_highways_data_odmat.html %} 
+#### Shapefiles: {% include accordion_highways_data_shapefiles.html %}
+#### Commuting Matrix: {% include accordion_highways_data_odmat.html %} 
 
