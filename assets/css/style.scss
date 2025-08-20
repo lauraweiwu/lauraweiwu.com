@@ -158,25 +158,28 @@ h3 + p + .accordion-wrapper {
 
 .accordion-heading {
   display: flex;
-  align-items: flex-start;   /* was: center */
+  align-items: baseline;   /* was flex-start */
   gap: 10px;
   margin: 0.25em 0;
 }
 
 .accordion-heading h4 {
-  margin: 0;                 /* no extra vertical shift */
+  margin: 0;
+  line-height: 1;          /* tighten so its baseline matches better */
 }
 
-/* Wrapper sits inline with the h4; its children stack, content below buttons */
+/* Wrapper stays inline, content still stacks beneath */
 .accordion-heading > .accordion-wrapper {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: baseline;
   margin: 0;
 }
 
-/* Space between the button row and the revealed content */
-.accordion-heading .accordion-wrapper .accordion-content {
-  margin-top: 8px;
+/* Normalize button metrics so baselines behave */
+.accordion-heading .accordion-btn,
+.accordion-heading .file-link {
+  line-height: 1;          /* was 1.2 */
+  padding: 3px 6px;        /* keep same visual height after line-height change */
 }
 
 .accordion-btn,
