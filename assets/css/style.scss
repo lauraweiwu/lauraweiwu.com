@@ -155,34 +155,28 @@ h3 + p + .accordion-wrapper {
   margin-top: 0px;  // Only apply negative margin in specific contexts
 }
 
-/* Heading + buttons on one line */
+/* Heading + buttons on one line (compact) */
 .accordion-heading {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 0.5em 0;
+  margin: 0.25em 0;         /* was 0.5em 0 */
 }
 
+/* Inside the inline row, kill h4 margins so they don't stack */
 .accordion-heading h4 {
-  margin-top: 5px;   /* space above the whole block */
-  margin-bottom: 0;    /* prevent extra gap since flex handles alignment */
+  margin: 0;                 /* was margin-top: 5px */
+  line-height: 1.2;
 }
 
-/* When an include outputs a wrapper, neutralize its margins and layout */
+/* The include wrapper shouldn't add spacing in the inline row */
 .accordion-heading > .accordion-wrapper {
-  display: inline-flex;   /* keep buttons on the same line as the h4 */
+  display: inline-flex;
   align-items: center;
   gap: 10px;
-  margin: 0;              /* override .accordion-wrapper default margins */
+  margin: 0;
 }
 
-/* Ensure button typography doesn’t inherit the h4 */
-.accordion-heading .accordion-wrapper .accordion-btn,
-.accordion-heading .accordion-wrapper .file-link {
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 1.2;       /* tidy vertical alignment */
-}
 
 .data-content {
   display: flex;
