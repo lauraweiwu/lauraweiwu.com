@@ -1,6 +1,13 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: Laura Weiwu
+  email: lauraww@berkeley.edu
+  
 title: Laura Weiwu
 description: |
   <b>Assistant Professor</b><br>
@@ -11,6 +18,25 @@ description: |
   <br><b>[[lauraww@berkeley.edu||mailto:lauraww@berkeley.edu]]</b><br>
   <br>
   [[ [Curriculum Vitae]||/assets/files/Laura_Weiwu_CV.pdf]]
+
+url: https://lauraweiwu.com
+baseurl: ""  # empty when using a custom domain
+
+# Minimal theme extras
+show_downloads: false
+
+# Set sensible defaults
+defaults:
+  - scope:
+      path: ""   # all files
+    values:
+      layout: default
+
 logo: /assets/images/laura-weiwu-crop.jpeg
 include:
   - assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
