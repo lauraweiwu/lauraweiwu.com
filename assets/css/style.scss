@@ -160,7 +160,7 @@ h3 + p + .accordion-wrapper {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 0.25em 0;         /* was 0.5em 0 */
+  margin: 0.1em 0;         /* was 0.5em 0 */
 }
 
 /* Inside the inline row, kill h4 margins so they don't stack */
