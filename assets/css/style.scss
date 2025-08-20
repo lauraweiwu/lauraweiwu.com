@@ -171,14 +171,17 @@ h3 + p + .accordion-wrapper {
 }
 
 
-/* Only inline when used in a heading row */
+/* Wrapper sits inline with the h4, but its children stack vertically */
 .accordion-heading > .accordion-wrapper {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
+  display: inline-block;
+  vertical-align: middle;
   margin: 0;
 }
 
+/* Space between the button row and the revealed content */
+.accordion-heading .accordion-wrapper .accordion-content {
+  margin-top: 8px;
+}
 
 .accordion-btn,
 .file-link {
