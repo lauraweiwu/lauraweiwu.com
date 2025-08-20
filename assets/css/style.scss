@@ -146,6 +146,7 @@ section {
 }
 
 .accordion-wrapper {
+  display: block;
   margin-top: 0;  
   margin-bottom: 10px;
 }
@@ -169,13 +170,15 @@ h3 + p + .accordion-wrapper {
   line-height: 1.2;
 }
 
-/* The include wrapper shouldn't add spacing in the inline row */
+
+/* Only inline when used in a heading row */
 .accordion-heading > .accordion-wrapper {
   display: inline-flex;
   align-items: center;
   gap: 10px;
   margin: 0;
 }
+
 
 .accordion-btn,
 .file-link {
