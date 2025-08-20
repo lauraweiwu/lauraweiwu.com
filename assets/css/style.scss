@@ -155,32 +155,33 @@ h3 + p + .accordion-wrapper {
   margin-top: 0px;  // Only apply negative margin in specific contexts
 }
 
-
+/* Heading + buttons on one line */
 .accordion-heading {
   display: flex;
   align-items: center;
-  gap: 5px; /* space between heading and buttons */
+  gap: 10px;
+  margin: 0.5em 0;
 }
 
 .accordion-heading h4 {
-  margin-top: 0px; /* remove default heading margins */
+  margin-top: 10px;   /* space above the whole block */
+  margin-bottom: 0;    /* prevent extra gap since flex handles alignment */
 }
 
-/* Normalize spacing for heading + buttons rows */
-.accordion-heading > .accordion-wrapper,
-.accordion-heading > .accordion-container {
-  margin: 0;              /* kill the 8px/5px or 10px vertical margins */
+/* When an include outputs a wrapper, neutralize its margins and layout */
+.accordion-heading > .accordion-wrapper {
+  display: inline-flex;   /* keep buttons on the same line as the h4 */
+  align-items: center;
+  gap: 10px;
+  margin: 0;              /* override .accordion-wrapper default margins */
 }
 
-.accordion-heading .accordion-container {
-  margin: 0;              /* belt-and-suspenders */
-}
-
-/* Keep button text size from inheriting h4 */
-.accordion-heading .accordion-container .accordion-btn,
-.accordion-heading .accordion-container .file-link {
+/* Ensure button typography doesn’t inherit the h4 */
+.accordion-heading .accordion-wrapper .accordion-btn,
+.accordion-heading .accordion-wrapper .file-link {
   font-size: 13px;
   font-weight: normal;
+  line-height: 1.2;       /* tidy vertical alignment */
 }
 
 .data-content {
