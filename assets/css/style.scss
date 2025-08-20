@@ -166,6 +166,12 @@ h3 + p + .accordion-wrapper {
   margin: 0; /* remove default heading margins */
 }
 
+.accordion-heading .accordion-container .accordion-btn,
+.accordion-heading .accordion-container .file-link {
+  font-size: 13px;     /* match your accordion-btn setting */
+  font-weight: normal; /* prevent bold from h4 inheritance */
+}
+
 
 .data-content {
   display: flex;
