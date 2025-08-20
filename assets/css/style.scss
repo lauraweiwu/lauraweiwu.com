@@ -156,25 +156,22 @@ h3 + p + .accordion-wrapper {
   margin-top: 0px;  // Only apply negative margin in specific contexts
 }
 
-/* Heading + buttons on one line (compact) */
 .accordion-heading {
   display: flex;
-  align-items: center;
+  align-items: flex-start;   /* was: center */
   gap: 10px;
-  margin: 0.05em 0;         /* was 0.5em 0 */
+  margin: 0.25em 0;
 }
 
-/* Inside the inline row, kill h4 margins so they don't stack */
 .accordion-heading h4 {
-  margin: 0;                 /* was margin-top: 5px */
+  margin: 0;                 /* no extra vertical shift */
   line-height: 1.2;
 }
 
-
-/* Wrapper sits inline with the h4, but its children stack vertically */
+/* Wrapper sits inline with the h4; its children stack, content below buttons */
 .accordion-heading > .accordion-wrapper {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   margin: 0;
 }
 
