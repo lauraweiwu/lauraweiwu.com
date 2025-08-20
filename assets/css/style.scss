@@ -113,7 +113,10 @@ section {
   margin-bottom: 5px;
 }
 
-.accordion-btn, .file-link {
+
+
+.accordion-btn,
+.file-link {
   background-color: #f1f1f1;
   color: #444;
   cursor: pointer;
@@ -122,8 +125,12 @@ section {
   outline: none;
   transition: 0.3s;
   font-size: 13px;
+  font-weight: normal;
+  line-height: 1.2;
   border-radius: 6px;
+  text-decoration: none; /* prevent underlines on links */
 }
+
 
 .accordion-btn:hover, .file-link:hover {
   background-color: #ddd;
@@ -131,9 +138,14 @@ section {
   border-bottom: none;
 }
 
-.accordion-btn.active {
+/* Active/selected state — same for all */
+.accordion-btn.active,
+.file-link.active {
   background-color: #ccc;
 }
+
+
+
 
 .accordion-content {
   display: none;
@@ -158,8 +170,7 @@ h3 + p + .accordion-wrapper {
 
 .accordion-heading {
   display: flex;
-  align-items: baseline;   /* was flex-start */
-  gap: 10px;
+  align-items: baseline;   
   margin: 0.25em 0;
 }
 
@@ -182,35 +193,6 @@ h3 + p + .accordion-wrapper {
   padding: 3px 6px;        /* keep same visual height after line-height change */
 }
 
-.accordion-btn,
-.file-link {
-  background-color: #f1f1f1;
-  color: #444;
-  cursor: pointer;
-  padding: 2px 6px;
-  border: none;
-  outline: none;
-  transition: 0.3s;
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 1.2;
-  border-radius: 6px;
-  text-decoration: none; /* prevent underlines on links */
-}
-
-/* Hover state — same for all */
-.accordion-btn:hover,
-.file-link:hover {
-  background-color: #ddd;
-  color: inherit;
-  border-bottom: none; /* avoid link underline */
-}
-
-/* Active/selected state — same for all */
-.accordion-btn.active,
-.file-link.active {
-  background-color: #ccc;
-}
 
 
 
