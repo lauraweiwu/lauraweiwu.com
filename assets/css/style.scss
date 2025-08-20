@@ -159,11 +159,11 @@ h3 + p + .accordion-wrapper {
 .accordion-heading {
   display: flex;
   align-items: center;
-  gap: 10px; /* space between heading and buttons */
+  gap: 5px; /* space between heading and buttons */
 }
 
 .accordion-heading h4 {
-  margin: 0; /* remove default heading margins */
+  margin-top: 10px; /* remove default heading margins */
 }
 
 /* Normalize spacing for heading + buttons rows */
