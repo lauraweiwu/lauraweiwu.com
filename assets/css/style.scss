@@ -194,7 +194,13 @@ h3 + p + .accordion-wrapper {
   padding: 3px 6px;        /* keep same visual height after line-height change */
 }
 
-
+/* Accordion content should span full width, aligned with heading text */
+.accordion-heading .accordion-wrapper .accordion-content {
+  display: block;
+  margin-top: 8px;
+  margin-left: 0;        /* reset indent */
+  flex-basis: 100%;      /* make sure it breaks to new line under heading */
+}
 
 
 .data-content {
