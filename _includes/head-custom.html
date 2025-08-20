@@ -1,8 +1,13 @@
 {% if page.title %}
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
 {% else %}
   <title>{{ site.title }}</title>
 {% endif %}
 
-
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{%- assign desc = page.excerpt | default: page.description | default: site.description -%}
+<meta name="description" content="{{ desc | strip_html | normalize_whitespace | truncate: 160 }}">
+
+{% seo %}
