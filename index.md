@@ -43,5 +43,5 @@ with Martha Stinson. Census Bureau Center for Economic Studies (CES) Technical N
 #### Shapefiles
 {% include accordion_highways_data_shapefiles.html %}
 #### Commuting Matrix
-<!-- {% include accordion_highways_data_odmat.html %} -->
+{% include accordion_highways_data_odmat.html %} 
 
