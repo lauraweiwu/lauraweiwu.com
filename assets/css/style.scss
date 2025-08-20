@@ -166,12 +166,22 @@ h3 + p + .accordion-wrapper {
   margin: 0; /* remove default heading margins */
 }
 
-.accordion-heading .accordion-container .accordion-btn,
-.accordion-heading .accordion-container .file-link {
-  font-size: 13px;     /* match your accordion-btn setting */
-  font-weight: normal; /* prevent bold from h4 inheritance */
+/* Normalize spacing for heading + buttons rows */
+.accordion-heading > .accordion-wrapper,
+.accordion-heading > .accordion-container {
+  margin: 0;              /* kill the 8px/5px or 10px vertical margins */
 }
 
+.accordion-heading .accordion-container {
+  margin: 0;              /* belt-and-suspenders */
+}
+
+/* Keep button text size from inheriting h4 */
+.accordion-heading .accordion-container .accordion-btn,
+.accordion-heading .accordion-container .file-link {
+  font-size: 13px;
+  font-weight: normal;
+}
 
 .data-content {
   display: flex;
