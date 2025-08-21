@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Laura Weiwu
 description: Assistant Professor at UC Berkeley Haas. Research in labor & urban economics, inequality, intergenerational mobility, housing, and infrastructure.
 ---
 I study questions in labor and urban economics by applying methods from spatial economics and insights from economic history. My research focuses on the causes and consequences of inequality, often by employing large-scale administrative datasets for the United States. 
