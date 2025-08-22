@@ -41,12 +41,12 @@ with Martha Stinson. Census Bureau Center for Economic Studies (CES) Technical N
 ### <a id="highways-data"></a>Interstate Highways and Historical Roads
 
 <div class="accordion-heading">
-  <h4>Maps</h4>
+  <h4>Maps:</h4>
   {% include accordion_highways_data_shapefiles.html %}
 </div>
 
 <div class="accordion-heading">
-  <h4>Commuting Matrix</h4>
+  <h4>Commuting Matrix:</h4>
   {% include accordion_highways_data_odmat.html %}
 </div>
 
