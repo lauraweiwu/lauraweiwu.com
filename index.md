@@ -17,7 +17,7 @@ _Name pronunciation tip_ — my last name is two Chinese characters (危吴) and
 _[Best Student Paper](https://urbaneconomics.org/meetings/awards.html#:~:text=17th%20North%20American%20Meeting%20of,of%20Interstate%20Highways%20in%20Cities%22.)_, Urban Economics Association. <br>
 _[Allan Nevins Dissertation Prize](https://eh.net/nevins-prize/)_, Economic History Association
 
-### Opportunity in Motion: Equilibrium Effects of a Place-Based Policy on Economic Mobility
+### Opportunity in Motion: Equilibrium Effects of Infrastructure on Intergenerational Mobility
 {% include accordion_interstate_igm.html %}
 
 ### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
