@@ -20,15 +20,15 @@ _[Allan Nevins Dissertation Prize](https://eh.net/nevins-prize/)_, Economic Hist
 ### Opportunity in Motion: Equilibrium Effects of Infrastructure on Intergenerational Mobility
 {% include accordion_interstate_igm.html %}
 
+### Measuring Winners and Losers from Increasing Housing Supply
+with [Vincent Rollet](https://sites.google.com/site/vjrollet/home){:.co-author-link}
+{% include accordion_zoning.html %}
+
 ### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
 with Martha Stinson and [Sean Wang](https://www.seanwang.page/research){:.co-author-link}
 {% include accordion_igm_shocks.html %}
 
 ## Works in Progress
-### Measuring Winners and Losers from Increasing Housing Supply
-with [Vincent Rollet](https://sites.google.com/site/vjrollet/home){:.co-author-link}
-{% include accordion_zoning.html %}
-
 ### Intergenerational Mobility for Generation X: Estimates from Administrative Data
 with Martha Stinson
 
