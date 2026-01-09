@@ -13,7 +13,7 @@ _Name pronunciation tip_ — my last name is two Chinese characters (危吴) and
 <br>
 ## Working Papers
 ### Unequal Access: Racial Segregation and the Distributional Impacts of Interstate Highways in Cities
-**Revision Invited at American Economic Review** <br>
+*R&R at American Economic Review* <br>
 {% include accordion_interstate_inequality.html %}
 _[Best Student Paper](https://urbaneconomics.org/meetings/awards.html#:~:text=17th%20North%20American%20Meeting%20of,of%20Interstate%20Highways%20in%20Cities%22.)_, Urban Economics Association. <br>
 _[Allan Nevins Dissertation Prize](https://eh.net/nevins-prize/)_, Economic History Association
