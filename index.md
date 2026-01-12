@@ -2,7 +2,7 @@
 layout: default
 description: Assistant Professor at UC Berkeley Haas. Research in labor & urban economics, inequality, intergenerational mobility, housing, and infrastructure.
 ---
-I am a labor and urban economist. My research focuses on the causes and consequences of inequality in the U.S. and draws upon methods from spatial economics and economic history. 
+I am a labor and urban economist. My research focuses on the causes and consequences of inequality in the U.S. and often draws upon methods from spatial economics and economic history. 
 
 I received my Ph.D. in Economics from MIT in 2024 and my B.A. in Economics and B.S. in Applied Mathematics from Stanford in 2018. Before joining UC Berkeley, I was a post-doctoral fellow at Stanford from 2024 to 2025. 
 
