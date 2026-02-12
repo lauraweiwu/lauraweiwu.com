@@ -30,7 +30,7 @@ with Martha Stinson and [Sean Wang](https://www.seanwang.page/research){:.co-aut
 {% include accordion_igm_shocks.html %}
 
 ## Works in Progress
-### Intergenerational Mobility for Generation X: Estimates from Administrative Data
+### Changing Intergenerational Mobility in the Mid-20th Century: Evidence from Newly Linked Administrative Data
 with Martha Stinson
 
 ## Other Papers
