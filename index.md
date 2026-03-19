@@ -30,8 +30,8 @@ with Martha Stinson and [Sean Wang](https://www.seanwang.page/research){:.co-aut
 {% include accordion_igm_shocks.html %}
 
 ## Publications
-### [Essays on Inequality in Cities: Evidence from the Interstate Highway System](https://www.cambridge.org/core/journals/journal-of-economic-history/article/summaries-of-doctoral-dissertations/703E5191B9E014DFD635E1FC93F7DDF4?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark)
-Dissertation summary for receiving the Allan Nevins Prize for best dissertation in American Economic History.
+### Essays on Inequality in Cities: Evidence from the Interstate Highway System
+[Dissertation summary](https://www.cambridge.org/core/journals/journal-of-economic-history/article/summaries-of-doctoral-dissertations/703E5191B9E014DFD635E1FC93F7DDF4?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark) for the Allan Nevins Prize for best dissertation in American Economic History.
 _Journal of Economic History_, 2025, 85(2), 549-554
 
 ## Works in Progress
