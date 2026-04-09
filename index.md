@@ -18,7 +18,7 @@ _Name pronunciation tip_ — my last name is two Chinese characters (危吴) and
 [Best Student Paper](https://urbaneconomics.org/meetings/awards.html#:~:text=17th%20North%20American%20Meeting%20of,of%20Interstate%20Highways%20in%20Cities%22.), Urban Economics Association. <br>
 [Allan Nevins Dissertation Prize](https://eh.net/nevins-prize/), Economic History Association
 
-### Opportunity in Motion: Equilibrium Effects of Infrastructure on Intergenerational Mobility
+### Opportunity in Motion: Infrastructure, Job Access, and Intergenerational Mobility
 {% include accordion_interstate_igm.html %}
 [Russell Sage Foundation Pipeline Grant](https://www.russellsage.org/apply/grants/pipeline), [Upjohn Institute Early Career Research Award](https://www.upjohn.org/early-career-research-awards)
 
