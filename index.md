@@ -10,8 +10,9 @@ As a graduate student, I also worked at the Census Bureau's [Center for Economic
 
 
 _Name pronunciation tip_ — my last name is two Chinese characters (危吴) and spoken as way-woo
+<br>
 
-I am co-organizing the All-California Labor Economics Conference at UC Berkeley on Sep 10-11 with Conrad Miller and Na'ama Shenhav. Please submit your paper [here](https://forms.gle/ayACBFho7CdCZDii8).
+**UPDATE:** I am co-organizing the All-California Labor Economics Conference at UC Berkeley on Sep 10-11 with Conrad Miller and Na'ama Shenhav. Please submit your paper [here](https://forms.gle/ayACBFho7CdCZDii8).
 
 <br>
 ## Working Papers
