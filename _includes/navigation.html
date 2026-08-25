@@ -1,0 +1,19 @@
+<nav class="site-nav" aria-label="Main">
+  <ul class="site-tabs">
+    {% for item in site.navigation %}
+      {% assign item_href = item.url | relative_url %}
+      {% if item.hash %}
+        {% assign item_href = item_href | append: "#" | append: item.hash %}
+      {% endif %}
+      <li>
+        {% if item.new_tab %}
+          <a href="{{ item_href }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        {% elsif page.nav == item.nav %}
+          <a href="{{ item_href }}" class="active" aria-current="page">{{ item.title }}</a>
+        {% else %}
+          <a href="{{ item_href }}">{{ item.title }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

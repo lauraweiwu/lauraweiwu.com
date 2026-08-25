@@ -15,12 +15,26 @@ description: |
   UC Berkeley<br>
   2220 Piedmont Ave<br>
   Berkeley, CA 94720<br>
-  <br><b>[[lauraww@berkeley.edu||mailto:lauraww@berkeley.edu]]</b><br>
-  <br>
-  [[ [Curriculum Vitae]||/assets/files/Laura_Weiwu_CV.pdf]]
+  <br><b>[[lauraww@berkeley.edu||mailto:lauraww@berkeley.edu]]</b>
 
 url: https://lauraweiwu.com
 baseurl: ""  # empty when using a custom domain
+
+navigation:
+  - title: Research
+    url: /
+    hash: working-papers
+    nav: research
+  - title: Data
+    url: /data/
+    nav: data
+  - title: Teaching
+    url: /teaching/
+    nav: teaching
+  - title: CV
+    url: /assets/files/Laura_Weiwu_CV.pdf
+    nav: cv
+    new_tab: true
 
 # Minimal theme extras
 show_downloads: false

@@ -1,20 +1,17 @@
 ---
 layout: default
+nav: research
 description: Assistant Professor at UC Berkeley Haas. Research in labor & urban economics, inequality, intergenerational mobility, housing, and infrastructure.
 ---
-I am a labor and urban economist at UC Berkeley. My research focuses on the causes and consequences of inequality in the United States, often combining insights from spatial economics and economic history to better understand how place and policies of the past shape economic outcomes.
+I am a labor and urban economist at UC Berkeley Haas. I study how place and past policies shape inequality in the United States.
 
-I received my Ph.D. in Economics from MIT in 2024, and my B.A. in Economics and B.S. in Applied Mathematics from Stanford in 2018. Before joining Berkeley, I was a postdoctoral fellow at Stanford.
-
-As a graduate student, I also worked at the Census Bureau's [Center for Economic Studies](https://www.census.gov/programs-surveys/ces.html) to build new measures of intergenerational mobility for the mid-20th century.
-
+I received my Ph.D. in Economics from MIT in 2024. Before joining Berkeley, I was a postdoctoral fellow at Stanford.
 
 _Name pronunciation tip_ — my last name is two Chinese characters (危吴) and spoken as way-woo
-<br><br> 
 
-**UPDATE:** I am co-organizing the [All-California Labor Economics Conference](https://forms.gle/ayACBFho7CdCZDii8) at UC Berkeley on September 10-11 with Conrad Miller and Na'ama Shenhav. 
+**UPDATE:** I am co-organizing the [All-California Labor Economics Conference](https://forms.gle/ayACBFho7CdCZDii8) at UC Berkeley on September 10-11 with Conrad Miller and Na'ama Shenhav.
 
-## Working Papers
+## Working Papers {#working-papers}
 ### Unequal Access: Racial Segregation and the Distributional Impacts of Interstate Highways in Cities
 #### _Revision requested at American Economic Review_ <br>
 {% include accordion_interstate_inequality.html %}
@@ -46,17 +43,3 @@ with Martha Stinson
 ### Intergenerational Linkages between Historical IRS 1040 Data and the Numident: 1964-1979 Cohorts
 with Martha Stinson. Census Bureau Center for Economic Studies (CES) Technical Note
 {% include accordion_linkages_technote.html %}
-
-## Data
-### <a id="highways-data"></a>Interstate Highways and Historical Roads
-
-<div class="accordion-heading">
-  <h4>Maps:</h4>
-  {% include accordion_highways_data_shapefiles.html %}
-</div>
-
-<div class="accordion-heading">
-  <h4>Commuting Matrix:</h4>
-  {% include accordion_highways_data_odmat.html %}
-</div>
-
