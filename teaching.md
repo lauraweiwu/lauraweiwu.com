@@ -26,5 +26,6 @@ Student rating: 6.6/7.
 Best Graduate TA of the Year (Top 3)<br>
 MIT Economics, 2024.
 
-Graduate Student Council Teaching Award, School of Humanities, Arts, and Social Sciences (SHASS)<br>
+Graduate Student Council Teaching Award <br> 
+School of Humanities, Arts, and Social Sciences (SHASS)<br>
 MIT, 2021.
