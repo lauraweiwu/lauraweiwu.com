@@ -136,24 +136,23 @@ section {
   color: #727272;
   font-size: 15px;
   font-weight: 400;
-  border-bottom: none;
+  border-bottom: 2px solid transparent;
 }
 
 .site-tabs a:hover {
   color: #313131;
-  border-bottom: none;
+  border-bottom: 2px solid #313131;
   font-weight: 400 !important;
 }
 
 .site-tabs a.active {
   color: #313131;
   font-weight: 700;
-  border-bottom: none;
+  border-bottom: 2px solid #313131;
 }
 
 .site-tabs a.active:hover {
   font-weight: 700 !important;
-  border-bottom: none;
 }
 
 .site-nav + h2 {
