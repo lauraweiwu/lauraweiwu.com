@@ -101,6 +101,13 @@ header {
 
 section {
   width: 620px;  // Adjust width of main content area
+  border: none;
+}
+
+@media screen and (max-width: 960px) {
+  section {
+    border: none;
+  }
 }
 
 
@@ -129,23 +136,24 @@ section {
   color: #727272;
   font-size: 15px;
   font-weight: 400;
-  border-bottom: 2px solid transparent;
+  border-bottom: none;
 }
 
 .site-tabs a:hover {
   color: #313131;
-  border-bottom: 2px solid #313131;
+  border-bottom: none;
   font-weight: 400 !important;
 }
 
 .site-tabs a.active {
   color: #313131;
   font-weight: 700;
-  border-bottom: 2px solid #313131;
+  border-bottom: none;
 }
 
 .site-tabs a.active:hover {
   font-weight: 700 !important;
+  border-bottom: none;
 }
 
 .site-nav + h2 {
@@ -375,8 +383,7 @@ h3 + p + .accordion-wrapper {
   }
 
   section {
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
+    border: none;
     padding: 20px 0;
     margin: 0 0 20px;
   }
