@@ -19,7 +19,7 @@ with Antoine Levy, and Olivia Bordeu
 
 ### 14.662: PhD Labor Economics
 MIT, Spring 2024. <br>
-Teaching assistant with David Autor and Nina Roussille.
+Teaching assistant with David Autor and Nina Roussille.<br>
 Student rating: 6.6/7.
 
 ## Teaching Awards
