@@ -137,26 +137,29 @@ section {
   font-size: 15px;
   font-weight: 400;
   border-bottom: 2px solid transparent;
+  transition: color 0.2s ease;
 }
 
-.site-tabs a:hover {
+.site-tabs a:hover,
+.site-tabs a:focus {
   color: #313131;
   border-bottom: 2px solid #313131;
   font-weight: 400 !important;
+  outline: none;
 }
 
-.site-tabs a.active {
-  color: #313131;
+.site-tabs a.active,
+.site-tabs a.active:hover,
+.site-tabs a.active:focus,
+.site-tabs a.active:visited,
+.site-tabs a.active:active {
+  color: #313131 !important;
   font-weight: 700;
-  border-bottom: 2px solid #313131;
-}
-
-.site-tabs a.active:hover {
-  font-weight: 700 !important;
+  border-bottom: 2px solid #313131 !important;
 }
 
 .site-nav + h2 {
-  margin-top: 12px;
+  margin-top: 24px;
 }
 
 html {
