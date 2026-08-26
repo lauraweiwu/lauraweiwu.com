@@ -7,7 +7,7 @@ description: Teaching at UC Berkeley Haas and MIT, including real estate, urban 
 ---
 ## UC Berkeley
 
-### UGBA 180: Introduction to Real Estate and Urban Land Economics
+### UGBA 180: Introduction to Real Estate and Urban Economics
 Undergraduate, Spring 2026.
 
 ### PHDBA 289A: Special Topics in Urban Economics.
