@@ -19,13 +19,12 @@ with Antoine Levy, and Olivia Bordeu
 
 ### 14.662: PhD Labor Economics
 MIT, Spring 2024. <br>
-Teaching assistant with David Autor and Nina Roussille
-
+Teaching assistant with David Autor and Nina Roussille.
 Student rating: 6.6/7.
 
 ## Teaching Awards
 Best Graduate TA of the Year (Top 3) <br> 
-MIT Economics, 2024.
+MIT Economics,  2024.
 
-Graduate Student Council Teaching Award in the School of Humanities, Arts, and Social Sciences (SHASS)<br>
-MIT, 2021.
+Graduate Student Council Teaching Award, School of Humanities, Arts, and Social Sciences (SHASS)<br>
+MIT,  2021.

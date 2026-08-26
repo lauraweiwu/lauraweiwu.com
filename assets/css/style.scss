@@ -43,9 +43,15 @@ h1 {
 
 h2 {
   font-size: 18px;
-  margin-top: 52px;
+  margin-top: 36px;
   font-weight: 500;
   margin-bottom: 10px;
+}
+
+h2 ~ h2 {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid #e5e5e5;
 }
 
 h3 {
