@@ -1,9 +1,9 @@
 ---
 layout: default
 nav: research
-description: Assistant Professor at UC Berkeley Haas. Research in labor & urban economics, inequality, intergenerational mobility, housing, and infrastructure.
+description: Assistant Professor at UC Berkeley Haas. Visiting Scholar at the Harvard Department of Economics (September–October). Research in labor & urban economics, inequality, intergenerational mobility, housing, and infrastructure.
 ---
-I am a labor and urban economist at UC Berkeley. I study how place and policies of the past shape inequality in the United States. I received my Ph.D. in Economics from MIT in 2024. Before joining Berkeley, I was a postdoctoral fellow at Stanford.
+I am a labor and urban economist at UC Berkeley. I study how place and policies of the past shape inequality in the United States. I received my Ph.D. in Economics from MIT in 2024. Before joining Berkeley, I was a postdoctoral fellow at Stanford. For September–October, I am a Visiting Scholar at the Harvard Department of Economics.
 
 _Name pronunciation tip_ — my last name is two Chinese characters (危吴) and spoken as way-woo
 
