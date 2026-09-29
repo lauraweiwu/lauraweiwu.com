@@ -10,7 +10,7 @@ description: Teaching at UC Berkeley Haas and MIT, including real estate, urban 
 ### UGBA 180: Introduction to Real Estate and Urban Economics
 Undergraduate, Spring 2026
 
-### PHDBA 289A: Special Topics in Urban Economics.
+### PHDBA 289A: Special Topics in Urban Economics
 PhD, Fall 2026<br>
 with Antoine Levy and Olivia Bordeu
 
