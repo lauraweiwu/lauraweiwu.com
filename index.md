@@ -7,8 +7,6 @@ I am a labor and urban economist at UC Berkeley. I study how place and policies 
 
 _Name pronunciation tip_ — my last name is two Chinese characters (危吴) and spoken as way-woo
 
-**UPDATE:** I am co-organizing the [All-California Labor Economics Conference](https://forms.gle/ayACBFho7CdCZDii8) at UC Berkeley on September 10-11 with Conrad Miller and Na'ama Shenhav.
-
 For September–October, I am a Visiting Scholar at the Harvard Department of Economics.
 
 ## Working Papers {#working-papers}
