@@ -7,8 +7,6 @@ I am a labor and urban economist at UC Berkeley. I study how place and policies 
 
 _Name pronunciation tip_ — my last name is two Chinese characters (危吴) and spoken as way-woo
 
-For September–October, I am a Visiting Scholar at the Harvard Department of Economics.
-
 ## Working Papers {#working-papers}
 ### Unequal Access: Racial Segregation and the Distributional Impacts of Interstate Highways in Cities
 #### _Revision requested at American Economic Review_ <br>
