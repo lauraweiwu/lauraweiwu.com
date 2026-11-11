@@ -32,7 +32,7 @@ with [Vincent Rollet](https://sites.google.com/site/vjrollet/home){:.co-author-l
 
 ## Works in Progress
 ### New Origins, New Impacts? Immigration and Local Labor Markets
-with [Ran Abramitzky](https://ranabr.people.stanford.edu/){:.co-author-link}, [Leah Boustan](https://lboustan.scholar.princeton.edu/){:.co-author-link}, and Yulia Valdivia Rivera
+with [Ran Abramitzky](https://ranabr.people.stanford.edu/){:.co-author-link}, [Leah Boustan](https://lboustan.scholar.princeton.edu/){:.co-author-link}, Jonathan Rothbaum, and Yulia Valdivia Rivera
 
 ### The Intergenerational Effects of Local Shocks: Income, Migration, and Human Capital
 with Martha Stinson and [Sean Wang](https://www.seanwang.page/research){:.co-author-link}
